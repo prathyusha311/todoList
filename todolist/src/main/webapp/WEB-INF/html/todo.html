@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>clevero todo list</title>
+    <link rel="stylesheet" type="text/css" href="./../css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./../css/todo.css">
+</head>
+<body>
+<br>
+<button type="button" class="button" align="left">Logout</button>
+
+<p id="demo" align="center"></p>
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="todolist not-done">
+                <h1>Todos</h1>
+                <input type="text" class="form-control add-todo" placeholder="Add todo">
+
+
+                <hr>
+                <ul id="sortable" class="list-unstyled">
+
+                </ul>
+                <div class="todo-footer">
+                    <strong><span class="count-todos"></span></strong> Items Left
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="todolist">
+                <h1>Already Done</h1>
+                <ul id="done-items" class="list-unstyled">
+
+
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="./../js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+<script src="./../js/popper.min.js"></script>
+<script src="./../js/bootstrap.min.js"></script>
+<script src="./../js/todo.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,8 @@
+com\clevero\todolist\TodolistApplication.class
+com\clevero\todolist\Repository\TaskRepository.class
+com\clevero\todolist\Service\TaskService.class
+com\clevero\todolist\Controller\MainController.class
+com\clevero\todolist\Entity\Customer.class
+com\clevero\todolist\Entity\Tasktable.class
+com\clevero\todolist\Repository\CustomerRepository.class
+com\clevero\todolist\Service\CustomerService.class
